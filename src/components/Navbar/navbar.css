@@ -1,0 +1,25 @@
+.navDiv{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    background-color: #53284f;
+    color: #ffffff;
+    font-family: "Merriweather Sans", sans-serif;
+    border-bottom: solid gainsboro;
+}
+.nav-img{
+    width: 19%;
+    height: 65%;
+}
+.nav-img>img{
+    width: 100%;
+    height: 100%;
+}
+
+.links{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    /* background-color: red; */
+}
