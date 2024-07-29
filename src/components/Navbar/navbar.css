@@ -1,15 +1,16 @@
 .navDiv{
     width: 100%;
-    height: 75px;
+    height: 80px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #53284f;
     color: #ffffff;
     font-family: "Merriweather Sans", sans-serif;
-    border-bottom: solid gainsboro;
 }
 .nav-img{
-    width: 19%;
-    height: 65%;
+    width: 15%;
+    height: 48%;
 }
 .nav-img>img{
     width: 100%;
@@ -17,9 +18,148 @@
 }
 
 .links{
-    width: 60%;
+    width: 75%;
     height: 100%;
     display: flex;
-    gap: 20px;
+    align-items: center;
+    gap: 30px;
     /* background-color: red; */
+    padding-left: 50px;
 }
+
+.product{
+    width: 70px;
+    height: 28px;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: #ffffff;
+    /* border: solid red; */
+}
+.product::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.4s ease-out;
+}
+.product:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    /* transition: left 3s ease-in-out, right; */
+}
+
+.productDrop{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    visibility: hidden;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 2px rgba(128, 128, 128, 0.555);
+}
+
+.help{
+    width: 92px;
+    height: 28px;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+    /* border: solid red; */ 
+}
+
+.help::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.4s ease-out;
+}
+.help:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.helpDrop{
+    
+    visibility: hidden;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 2px rgba(128, 128, 128, 0.555);
+}
+
+.explore{
+    width: 60px;
+    height: 28px;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    position: relative;
+    /* border: solid red; */
+}
+.explore::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.4s ease-out;
+}
+.explore:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.exploreDrop{
+    visibility: hidden;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 2px rgba(128, 128, 128, 0.555);
+}
+
+
+
+
+        .hover-effect::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: black;
+            transform: scaleX(0);
+            transform-origin: bottom right;
+            transition: transform 0.3s ease-out;
+        }
+
+        .hover-effect:hover::after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }

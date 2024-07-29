@@ -14,12 +14,12 @@ const Navbar = () => {
         </div>
 
         <div className="links">
-            <p className='product'>Products</p>
-            <p className='help'>Help Center</p>
-            <p className='explore'>Explore</p>
+            <a href=""className='product'>Products</a>
+            <a href=""className='help'>Help Center</a>
+            <a href=""className='explore'>Explore</a>
         </div>
 
-        {/* <div className="productDrop">
+        <div className="productDrop">
             <Link to="/allProducts">All Products</Link>
             <Link to="/ceilingFan">Ceiling Fans</Link>
             <Link to="/pedestalFan">Pedestal Fans</Link>
@@ -37,7 +37,7 @@ const Navbar = () => {
         <div className="exploreDrop">
             <Link to="/gallery">Gallery</Link>
             <Link to="/site">Site Map</Link>
-        </div> */}
+        </div>
 
       </div>
       
