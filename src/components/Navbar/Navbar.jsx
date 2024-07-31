@@ -10,34 +10,18 @@ const Navbar = () => {
        <div className="navDiv">
 
        <div className="nav-img">
-            <img src={NavbarLogo} alt="" />
+         <Link to="/"><img src={NavbarLogo} alt="" /></Link>
         </div>
 
         <div className="links">
-            <a href=""className='product'>Products</a>
-            <a href=""className='help'>Help Center</a>
-            <a href=""className='explore'>Explore</a>
+            <Link className='product'>Products</Link>
+            <Link className='explore'>Explore</Link>
+            <Link to="/faq" className='faq' >FAQs</Link>
+            <Link className='help'>Help Center</Link>
+            <Link to="/aboutUs" className='about' >About Us</Link>
+            <Link to="/contactUs" className='contact' >Contact Us</Link>
         </div>
-
-        <div className="productDrop">
-            <Link to="/allProducts">All Products</Link>
-            <Link to="/ceilingFan">Ceiling Fans</Link>
-            <Link to="/pedestalFan">Pedestal Fans</Link>
-            <Link to="/wallFan">Wall Fans</Link>
-            <Link to="/exhaustFan">Exhaust Fans</Link>
-        </div>
-
-        <div className="helpDrop">
-            <Link to="/faq">FAQs</Link>
-            <Link to="/review">Product Reviews & Rating</Link>
-            <Link to="/aboutUs">About Us</Link>
-            <Link to="/contactUs">Contact Us</Link>
-        </div>
-
-        <div className="exploreDrop">
-            <Link to="/gallery">Gallery</Link>
-            <Link to="/site">Site Map</Link>
-        </div>
+        {/* Ceiling fans, Pedestal fans, Wall fans, Exhaust fans, Accessories  */}
 
       </div>
       
