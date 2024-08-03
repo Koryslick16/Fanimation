@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom'
 import Fanimate from '../../assets/Images/fanimationFooter.png'
 import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
+import { FaPinterest } from "react-icons/fa";
+import { IoLogoYoutube } from "react-icons/io";
+import { FiInstagram } from "react-icons/fi";
 
 const Footer = () => {
   return (
@@ -27,19 +30,19 @@ const Footer = () => {
             <Link to="/gallery">Gallery</Link>
             <Link>Smart Controls</Link>
             <Link>Choosing a Fan</Link>
-            <Link>Blog</Link>
-            <Link>Contact</Link>
+            <Link to="/gallery">Blog</Link>
         </div>
         <div className="aLinks">
-            <Link>Product Support</Link>
-            <Link>Reviews</Link>
+            <Link to="/helpcenter">Product Support</Link>
+            <Link to="/helpcenter">Reviews</Link>
             <Link>Warranty</Link>
             <Link>About Us</Link>
-            <Link>Privacy Policy</Link>
-            <Link>Terms and Conditions</Link>
+            <Link>Contact Us</Link>
         </div>
         <div className="aLinks">
-            <p>Enter your email address below to receive periodic communication from Fanimation.</p>
+            <p style={{
+              textWrap: "wrap"
+            }}>Enter your email address below to receive periodic communication from Fanimation.</p>
             <div className="email">
                 <input type="text" className='input' placeholder='Email' />
                 <button className='sub'>Subscribe</button>
@@ -51,9 +54,9 @@ const Footer = () => {
         <div className="icons">
             <FaXTwitter/>
             <FaFacebookF/>
-            PT
-            YT
-            IG
+            <FaPinterest/>
+            <IoLogoYoutube/>
+            <FiInstagram/>
         </div>
     </div>
        </div>
