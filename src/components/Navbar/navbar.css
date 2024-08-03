@@ -209,9 +209,18 @@
 #hamburger {
     display: none;
   }
+
+  .toggleBox{
+    display: none;
+    position: relative;
+  }
   
   .toggle {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
     gap: 10px;
     position: relative;
     width: 40px;
@@ -250,6 +259,56 @@
     transition-duration: .3s;
     transform-origin: left center;
   }
+
+  .navMenu{
+    position: fixed;
+    top: 68px;
+    left: 0;
+    height: 400px;
+    width: 100%;
+    background-color: #53284f;
+    transition: transform 2s ease-in-out;
+    transform: translateX(0);
+    animation-name: slideDown;
+    animation-duration: 0.5s;
+  }
+
+  .navMenu ul{
+    list-style: none;
+    /* padding-left: 70%; */
+    margin: 0;
+    padding-top: 1rem;
+    /* text-align: right; */
+  }
+  
+  .navMenu li{
+    width: 100%;
+    height: max-content;
+    padding-left: 50px;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  @keyframes slideDown {
+    from{
+        transform: translateY(-80%)
+    }
+    to{
+        transform: translateY(0%);
+    }
+  }
+
+  @keyframes slideUp {
+    from{
+        transform: translateY(0%)
+    }
+    to{
+        transform: translateY(-80%);
+    }
+  }
+
+
   
 
   @media screen and (max-width: 1050px) {
@@ -276,12 +335,8 @@
   }
 
   @media screen and (max-width: 700px) {
-    .toggle{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
+    .toggleBox{
+        display: block;
            }
 
     .links{
