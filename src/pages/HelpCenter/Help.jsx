@@ -38,7 +38,7 @@ const Help = () => {
             backgroundImage: `url(${BackgroundReview})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
-            backgroundPosition: "center",
+            backgroundPosition: "left",
         }}>
             <h4>How Can We Help?</h4>
         </div>

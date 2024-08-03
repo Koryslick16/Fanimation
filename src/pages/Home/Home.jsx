@@ -7,10 +7,7 @@ const Home = () => {
     <>
      <div className="homeDiv">
       
-        <p>dddddddddd</p>
-        WELCOME HOMEGGGGGGGGGGGGGGGGGG
-        <p>crystal clear fggggg</p>
-        <h1>FANIMATION IS THE BEST</h1>
+      
      </div>
 
     </>
