@@ -20,8 +20,8 @@ const Navbar = () => {
         </div>
 
         <div className="links">
-            <Link className='product'>Products</Link>
-            <Link className='explore'>Explore</Link>
+            <Link to="/products" className='product'>Products</Link>
+            <Link to="/gallery" className='explore'>Explore</Link>
             <Link to="/faq" className='faq' >FAQs</Link>
             <Link to="/helpcenter" className='help'>Help Center</Link>
             <Link to="/aboutUs" className='about' >About Us</Link>
@@ -41,8 +41,8 @@ const Navbar = () => {
       {isOpen && (
          <nav className='navMenu'>
          <ul>
-           <li><Link className='product'>Products</Link></li>
-           <li><Link className='explore'>Explore</Link></li>
+           <li><Link to="/products" className='product'>Products</Link></li>
+           <li><Link to="/gallery" className='explore'>Explore</Link></li>
            <li><Link to="/faq" className='faq' >FAQs</Link></li>
            <li><Link to="/helpcenter" className='help'>Help Center</Link></li>
            <li><Link to="/aboutUs" className='about' >About Us</Link></li>

@@ -20,24 +20,31 @@ const Footer = () => {
            </div>
            <div className="address">
             <p>Phone: 08080975645</p>
-            <p>Fax: 07014457796</p>
            </div>
+           <Link to="/helpcenter">Product Support</Link>
+           <Link to="/aboutUs">About Us</Link>
+           <Link to="/contactUs">Contact Us</Link>
 
         </div>
         <div className="aLinks">
-            <Link to="/">Home</Link>
-            <Link>Products</Link>
-            <Link to="/gallery">Gallery</Link>
-            <Link>Smart Controls</Link>
-            <Link>Choosing a Fan</Link>
-            <Link to="/gallery">Blog</Link>
+            <Link to="/products" style={{
+                fontWeight: "bolder"
+            }} >Products</Link>
+            <Link to="/ceilingFan">Ceiling fans</Link>
+            <Link to="/pedestalFan">Pedestal fans</Link>
+            <Link to="/wallFan">Wall fans</Link>
+            <Link to="/exhaustFans">Exhaust fans</Link>
+           
         </div>
         <div className="aLinks">
-            <Link to="/helpcenter">Product Support</Link>
+        <Link to="/">Home</Link>
+        <Link to="/gallery">Gallery</Link>
+        <Link to="/choose">Choosing a Fan</Link>
+        <Link to="/gallery">Blog</Link>
             <Link to="/helpcenter">Reviews</Link>
-            <Link>Warranty</Link>
-            <Link>About Us</Link>
-            <Link>Contact Us</Link>
+            <Link to="/faq">Warranty</Link>
+            <Link to="">Smart Controls</Link>
+        
         </div>
         <div className="aLinks">
             <p style={{

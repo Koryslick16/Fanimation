@@ -13,14 +13,16 @@
     font-size: 35px;
 }
 
-.support, .supportP{
+.support{
     width: 100%;
-    height: 300px;
+    height: max-content;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 15px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 .supportP{
     width: 100%;
