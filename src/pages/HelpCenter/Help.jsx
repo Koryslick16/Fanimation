@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./Help.css"
-import BackgroundReview from "../../assets/Images/reviews.webp"
+import BackgroundReview from "../../assets/Images/Fan.png"
 
 const Help = () => {
     const [name, setName] = useState("");

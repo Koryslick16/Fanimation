@@ -9,7 +9,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: azure;
+    /* color: rgb(210, 219, 219); */
+    color: gainsboro;
     font-size: 35px;
 }
 

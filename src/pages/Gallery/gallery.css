@@ -79,6 +79,7 @@
     object-position: top;
 }
 .st4 .overlay .image img{
+    /* object-fit: contain; */
     object-position: top;
 }
 .st10 .overlay .image img{

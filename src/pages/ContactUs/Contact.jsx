@@ -1,6 +1,6 @@
 import React from 'react'
 import "./contact.css"
-import BackgroundGallery from "../../assets/Images/Fan3.jpg"
+import BackgroundGallery from "../../assets/Images/Fan11.jpg"
 
 const Contact = () => {
   return (
