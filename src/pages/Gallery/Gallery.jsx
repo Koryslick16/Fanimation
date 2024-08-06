@@ -3,7 +3,7 @@ import "./gallery.css";
 import BackgroundGallery from "../../assets/Images/gallery.jpg";
 import Fan1 from "../../assets/Images/reviews.webp"
 import Fan2 from "../../assets/Images/Fan7.png"
-import Fan3 from "../../assets/Images/Fan6.png"
+import Fan3 from "../../assets/Images/Fan6.jpg"
 import Fan4 from "../../assets/Images/Fan8.png"
 import Fan5 from "../../assets/Images/Fan2.jpg"
 import Fan6 from "../../assets/Images/PedestalFan4.jpg"

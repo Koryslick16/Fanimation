@@ -116,7 +116,7 @@
     "description": "The TriAire Custom by Fanimation fits any style in any location.  With eight different blade sweeps in multiple finishes, you can create the TriAire Custom that fits your space. ",
     "category": "ceiling fan",
     "color": "black",
-    "type": "TriAire",
+    "type": "Aire",
     "brand": "Fanimation",
     "image": "https://fanimation.com/wp-content/uploads/2023/01/TriAire-Hero-1536x598.png"
   },
@@ -160,7 +160,7 @@
     "description": "The TriAire Custom Marine Grade by Fanimation fits any style in any location.  With eight different blade sweeps, you can create the TriAire Custom that fits your space.  This 3 blade set is available in Black, Dark Walnut, Matte White, Silver and Weathered Wood finishes. ",
     "category": "ceiling fan",
     "color": "white",
-    "type": "TriAire",
+    "type": "Aire",
     "brand": "Fanimation",
     "image": "https://fanimation.com/wp-content/uploads/2019/01/MAD8515MWW-84%EF%80%A0MWW-CAP-300x300.jpg"
   },
@@ -364,14 +364,14 @@
    },
    {
     "id": 34,
-    "name": "",
+    "name": "SculptAire",
     "price": 650.45,
-    "description": "",
+    "description": "No matter what finish you choose, the clear blades on SculptAire will keep you looking and feeling cool.  This 52 inch fan has a 3 speed AC motor and comes with an 18 watt LED light kit and cover.",
     "category": "ceiling fan",
-    "color": "gold",
-    "type": "",
-    "brand": "",
-    "image": ""
+    "color": "white",
+    "type": "Aire",
+    "brand": "Fanimation",
+    "image": "https://fanimation.com/wp-content/uploads/2019/01/sculptaire-desc-Hero-1536x598.jpg"
    },
    {
     "id": 35,
