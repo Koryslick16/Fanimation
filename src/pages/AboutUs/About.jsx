@@ -21,8 +21,9 @@ const About = () => {
             <p>From the very first fan we created more than 30 years ago to the newest ones in our portfolio, we create fans you can’t wait to show off! The same ingenuity and quality craftsmanship that gave birth to Fanimation continues to guide us today.
 
 </p>
-            <p>Fanimation’s focus is producing creative and functional fans that provide ultimate personal comfort using the latest technology for energy efficiency and seamless control.</p>
+            <p>Fanimation's focus is producing creative and functional fans that provide ultimate personal comfort using the latest technology for energy efficiency and seamless control.</p>
             <p>Fanimation strives hard to be environmentally friendly. We encourage you to browse our products online, which includes all the latest information on our great products and styles.</p>
+            <p>All Fanimation motors are protected by a limited lifetime warranty.</p>
         </div>
 
     </div>

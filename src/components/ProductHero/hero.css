@@ -1,0 +1,13 @@
+.heroDiv{
+    width: 92%;
+    height: 320px;
+    border-radius: 8px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+.heroDiv>h2{
+    font-size: 29px;
+    color: azure;
+}

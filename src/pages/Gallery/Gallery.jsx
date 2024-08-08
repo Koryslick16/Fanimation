@@ -153,7 +153,7 @@ const Gallery = () => {
               <div className="image">
                 <img src={Fan5} alt="" />
               </div>
-              <div className="text">Item12</div>
+              <div className="text">Wrap</div>
             </div>
           </div>
 
