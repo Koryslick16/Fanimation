@@ -1,0 +1,339 @@
+.helpDiv{
+    width: 100%;
+    height: max-content;
+}
+
+.helpHero{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.18);
+    background-blend-mode: darken;
+    color: azure;
+    font-size: 35px;
+}
+
+.support{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.supportP{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.support> h5, .supportP> h5{
+    font-size: 27px;
+}
+.support> p{
+    width: 80%;
+    line-height: 1.3;
+    font-size: 20px;
+    font-weight: 300;
+}
+.supportP> p{
+    width: 75%;
+    line-height: 1.3;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.findSupport{
+    width: 90%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 60px;
+    gap: 30px;
+    background-color: #53284f;
+    border-radius: 10px;
+    margin-left: 5%;
+    color: #f1f1f1;
+    padding-right: 50px;
+}
+.findSupport>h5{
+    font-size: 27px;
+}
+.findSupport>p{
+    font-size: 19px;
+    font-weight: 300;
+}
+.findSupport> button{
+    width: 160px;
+    height: 55px;
+    border: none;
+    background-color: lightgray;
+    border-radius: 5px;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 15px;
+}
+.findSupport> button:hover{
+    cursor: pointer;
+    background-color: rgb(221, 221, 221);
+    transition: 0.5s;
+}
+/* p{ */
+    /* font-weight: 300; */
+/* } */
+
+.addReview{
+    width: 75%;
+    /* height: 50px; */
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+    /* margin-top: 10px; */
+}
+.addReview>button{
+    width: 110px;
+    height: 40px;
+    background-color: #53284f;
+    border: none;
+    color: #f1f1f1;
+    font-family: "Merriweather Sans", sans-serif;
+    border-radius: 5px;
+}
+.addReview> button:hover{
+    cursor: pointer;
+    background-color: #663661;
+}
+
+.seeReviews{
+    width: 100%;
+    height: max-content;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.seeReviews>h5{
+    font-size: 25px;
+    text-align: center;
+}
+
+.reviews{
+    width: 80%;
+    height: max-content;
+    display: grid;
+    gap: 23px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.reviewSub{
+    width: 100%;
+    max-height: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 1.5;
+    background-color: #f1f1f1;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px 0px #8d8d8d;
+}
+  
+  
+  .ReviewForm {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* display: none; */
+  }
+  .flex{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .ReviewForm .btn-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .ReviewForm .btn {
+    width: 130px;
+    height: 50px;
+    font-size: 0.8rem;
+    /* letter-spacing: 1px; */
+    border-radius: 6px;
+    border: none;
+    background-color: #53284f;
+    color: #f1f1f1;
+    transition: all 0.2s ease;
+    font-family: "Merriweather Sans", sans-serif;
+    /* box-shadow: 0px 2px 3px #000d3848, inset 0px 4px 5px #0070f0, */
+      /* inset 0px -4px 5px #002cbb; */
+  }
+  .ReviewForm .btn:hover{
+    cursor: pointer;
+    background-color: #663661;
+  }
+  
+  /* .ReviewForm .btn:active {
+    box-shadow: inset 0px 4px 5px #0070f0, inset 0px -4px 5px #002cbb;
+    transform: scale(0.995);
+  } */
+  
+  .inputField, .textField{
+    position: relative;
+  }
+  
+  .inputField label {
+    position: absolute;
+    color: #8d8d8d;
+    pointer-events: none;
+    background-color: transparent;
+    left: 15px;
+    transform: translateY(0.6rem);
+    transition: all 0.3s ease;
+  }
+
+  .textField label {
+    position: absolute;
+    color: #8d8d8d;
+    pointer-events: none;
+    background-color: transparent;
+    left: 15px;
+    transform: translateY(0.6rem);
+    transition: all 0.3s ease;
+  }
+  
+  .inputField input {
+    padding: 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: solid 1px #8d8d8d;
+    letter-spacing: 1px;
+    width: 100%;
+    height: 50px;
+    background-color: #f1f1f1;
+    font-family: "Merriweather Sans", sans-serif;
+  }
+  .textField textarea {
+    padding: 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    width: 100%;
+    height: 75px;
+    background-color: #f1f1f1;
+    resize: none;
+    font-family: "Merriweather Sans", sans-serif;
+  }
+  
+  .inputField input:focus,
+  .textField textarea:focus{
+    outline: none;
+    border: solid 1px #53284f;
+  }
+  
+  .inputField input:focus ~ label,
+  .inputField input:valid ~ label,
+  .textField textarea:focus ~ label,
+  .textField textarea:valid ~label
+  {
+    transform: translateY(-51%) translateX(-10px) scale(0.8);
+    background-color: #f1f1f1;
+    padding: 0px 5px;
+    color: #53284f;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 100px;
+  }
+  
+
+  @media screen and (max-width: 950px) {
+      .reviews{
+        grid-template-columns: repeat(2, 1fr);
+      }
+  }
+
+  @media screen and (max-width: 650px) {
+       .findSupport> h5{
+        font-size: 22px;
+       }
+  }
+
+  @media screen and (max-width: 600px) {
+      .reviews{
+        grid-template-columns: repeat(1, 1fr);
+      }
+      .seeReviews> h5{
+        font-size: 20px;
+      }
+      .findSupport{
+        height: 260px;
+      }
+      .findSupport> p{
+        font-size: 16px;
+      }
+  }
+
+  @media screen and (max-width: 500px) {
+      .support> h5, .supportP>h5{
+        font-size: 25px;
+      }
+      .support>p, .supportP>p{
+        font-size: 16px;
+        font-weight: 400;
+      }
+      .addReview>p{
+        font-weight: 600;
+      }
+      .findSupport{
+        gap: 20px;
+        padding-left: 40px;
+        padding-right: 35px;
+      }
+      .findSupport> h5{
+        font-size: 18px;
+      }
+      .findSupport>button{
+        width: 140px;
+        height: 50px;
+      }
+      .seeReviews>h5{
+        font-size: 16px;
+        font-weight: 900;
+      }
+  }
+
+  @media screen and (max-width: 450px){
+      .helpHero{
+        font-size: 30px;
+      }
+      .findSupport{
+        height: max-content;
+        padding-top: 35px;
+        padding-bottom: 40px;
+      }
+  }
+
+  

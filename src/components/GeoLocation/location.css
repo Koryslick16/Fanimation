@@ -1,0 +1,60 @@
+.locate{
+    width: 230px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding-left: 15px;
+    backdrop-filter: blur(10px); /* Blur effect */
+    background-color: rgba(255, 255, 255, 0.7); 
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 17px 0px rgba(128, 128, 128, 0.685);
+    justify-content: space-between;
+    color: black;
+    font-size: 20px;
+    position: fixed;
+    top: 56%;
+    left: 0%;
+    z-index: 1;
+    cursor: pointer;
+}
+.locateButton{
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    font-size: 12px;
+    color: azure;
+    top: 90%;
+    cursor: pointer;
+    border: none;
+}
+.time{
+    font-size: 12px;
+}
+.locate-text{
+    font-size: 14px;
+}
+
+
+@media screen and (max-width: 597px) {
+    .locate{
+        width: 230px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        padding-left: 15px;
+        backdrop-filter: blur(10px); /* Blur effect */
+        background-color: rgba(255, 255, 255, 0.7); 
+        /* border: 1px solid black; */
+        box-shadow: 0px 0px 17px 0px rgba(128, 128, 128, 0.685);
+        justify-content: space-between;
+        color: black;
+        font-size: 20px;
+        position: fixed;
+        top: 56%;
+        left: 4%;
+        z-index: 1;
+        cursor: pointer;
+    }
+}
