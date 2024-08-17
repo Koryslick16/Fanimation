@@ -13,7 +13,7 @@
     transition: all 0.5s ease;
     box-shadow: 0px 0px 17px 0px rgba(128, 128, 128, 0.685);
     top: 85%;
-    left: 86%;
+    left: 93%;
   }
   .scrollTop::after {
     content: "";
