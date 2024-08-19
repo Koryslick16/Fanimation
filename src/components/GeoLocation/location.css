@@ -5,7 +5,7 @@
     flex-direction: column;
     border-radius: 20px;
     padding-left: 15px;
-    backdrop-filter: blur(10px); /* Blur effect */
+    backdrop-filter: blur(7px); /* Blur effect */
     background-color: rgba(255, 255, 255, 0.7); 
     /* border: 1px solid black; */
     box-shadow: 0px 0px 17px 0px rgba(128, 128, 128, 0.685);
@@ -58,3 +58,11 @@
         cursor: pointer;
     }
 }
+
+
+
+
+
+
+
+
