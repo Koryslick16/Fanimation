@@ -1,10 +1,14 @@
-import React from 'react';ome
+import React from 'react';
 import  './Home.css'
 import  { useState } from "react";
 import "../../components/Category/categories.css";
 import Data from "../../../public/data.json";
 import { NavLink } from "react-router-dom";
 import Modal from "../../components/Modal/Modal";
+
+
+
+
 
   
 
