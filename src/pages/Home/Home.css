@@ -9,7 +9,6 @@
 .hero-section{
     width: 100%;
     height: 540px;
-    /* border: 2px solid black; */
     margin-top: 10px;
     display: flex;
     align-items: center;
@@ -18,11 +17,9 @@
   .hero-title{
     width: 90%;
     height: 500px;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     gap: 10%;
-
     border-radius: 20px;
     background-image: url();
     background-size: contain;
@@ -103,7 +100,6 @@
   .hero-vid{
     width: 47%;
     height: 400px;
-    /* border: 1px solid black; */
     margin-left: 30px;
     display: flex;
     align-items: center;
@@ -112,12 +108,10 @@
   .weekly{
     width: 100%;
     height: 300px;
-    /* border: 1px solid black; */
   }
   .weekly-text{
     width: 26%;
     height: 25px;
-    /* border: 1px solid black; */
     border-radius: 20px;
     font-size: 14px;
     display: flex;
@@ -128,7 +122,6 @@
   .page-title{
     width: 100%;
     height: 130px;
-    /* border: 1px solid black; */
     font-size: 3px;
     display: flex;
     align-items: center;
@@ -144,7 +137,6 @@
   .vid{
     width: 80%;
     height: 50px;
-    /* border: 1px solid black; */
     display: flex;
     font-size: 14px;
     align-items: center;
@@ -153,7 +145,6 @@
   .inp-holder{
     width: 98%;
     height: 50px;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -162,7 +153,6 @@
   .inp-holder1{
     width: 60%;
     height: 50px;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -171,7 +161,6 @@
   .inp-holder2{
     width: 20%;
     height: 50px;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: end;
@@ -179,7 +168,6 @@
   .goods-section{
     width: 18%;
     height: 35px;
-    /* border: 1px solid black; */
     background-color: rgba(0, 0, 0, 0.128);
     display: flex;
     align-items: center;
@@ -194,7 +182,6 @@
   .goods-section-1a{
     width: 18%;
     height: 35px;
-    /* border: 1px solid black; */
     background-color: rgba(0, 0, 0, 0.128);
     display: flex;
     align-items: center;
@@ -209,7 +196,6 @@
   .goods-section2{
     width: 24%;
     height: 35px;
-    /* border: 1px solid black; */
     background-color: rgba(0, 0, 0, 0.128);
     display: flex;
     align-items: center;
@@ -241,7 +227,6 @@
   .remark{
     width: 100%;
     height: 280px;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -249,8 +234,7 @@
   .advert{
     width: 90%;
     height: 280px;
-    /* border: 1px solid black; */
-    border-top: 1px solid black;
+    /* border-top: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -258,7 +242,6 @@
   .advert-image1{
     width: 32%;
     height: 230px;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
 
@@ -270,7 +253,6 @@
   .advert-image-text{
     width: 70%;
     height: 150px;
-    /* border: 1px solid black; */
     color: white;
     font-size: 18px;
     margin-left: 30px;
@@ -291,7 +273,6 @@
   .advert-image2{
     width: 32%;
     height: 230px;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     background-image: url(/src/assets/IMAGES/home_feature_7a.jpg);
@@ -303,7 +284,6 @@
   .advert-image3{
     width: 32%;
     height: 230px;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     background-image: url(/src/assets/IMAGES/home_feature_8.jpg);
@@ -315,7 +295,6 @@
   .text-box1{
     width: 80%;
     height: 50px;
-    /* border: 1px solid black; */
     padding-left: 60px;
     display: flex;
     align-items: center;
@@ -438,7 +417,6 @@
   overflow: hidden;
   white-space: nowrap;
   width: 100%;
-  /* background-color: #f0f0f0; */
   border: 1px solid #ccc;
   padding: 10px;
 }
@@ -571,7 +549,6 @@
   .goods-section{
     width: 18%;
     height: 35px;
-    /* border: 1px solid black; */
     background-color: rgba(0, 0, 0, 0.128);
     display: flex;
     align-items: center;
@@ -584,7 +561,6 @@
   .goods-section-1a{
     width: 18%;
     height: 35px;
-    /* border: 1px solid black; */
     background-color: rgba(0, 0, 0, 0.128);
     display: flex;
     align-items: center;
@@ -597,7 +573,6 @@
   .goods-section2{
     width: 18%;
     height: 35px;
-    /* border: 1px solid black; */
     background-color: rgba(0, 0, 0, 0.128);
     display: flex;
     align-items: center;
@@ -625,7 +600,6 @@
   .goods-section{
     width: 17%;
     height: 35px;
-    /* border: 1px solid black; */
     background-color: rgba(0, 0, 0, 0.128);
     display: flex;
     align-items: center;
@@ -638,7 +612,6 @@
   .goods-section-1a{
     width: 17%;
     height: 35px;
-    /* border: 1px solid black; */
     background-color: rgba(0, 0, 0, 0.128);
     display: flex;
     align-items: center;
@@ -651,7 +624,6 @@
   .goods-section2{
     width: 17%;
     height: 35px;
-    /* border: 1px solid black; */
     background-color: rgba(0, 0, 0, 0.128);
     display: flex;
     align-items: center;
@@ -672,7 +644,6 @@
   .weekly-text{
     width: 29%;
     height: 25px;
-    /* border: 1px solid black; */
     border-radius: 20px;
     font-size: 14px;
     display: flex;
@@ -683,7 +654,6 @@
   .inp-holder1{
     width: 70%;
     height: 50px;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -692,7 +662,6 @@
   .inp-holder{
     width: 95%;
     height: 50px;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -701,7 +670,6 @@
   .goods-section1{
     width: 50%;
     height: 35px;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -714,7 +682,6 @@
   .inp-holder2{
     width: 17%;
     height: 50px;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: end;
@@ -731,7 +698,6 @@
   .advert-image2{
     width: 32%;
     height: 230px;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     background-image: url(/src/assets/Images/create-an-image-of-pedestal-fan-3_dGco5LQE6qVSO8OC2PPg-nES843ypTIqxy369AJ-nIQ.jpeg);
@@ -743,7 +709,6 @@
   .advert-image3{
     width: 32%;
     height: 230px;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     background-image: url(/src/assets/Images/create-an-image-of-exhaust-fans-0s7YIkJQT5uLgogPRWQ9UA-lOFtHj1qTHKcCq26MfyPGA.jpeg);
@@ -755,7 +720,6 @@
   .advert-image1{
     width: 32%;
     height: 230px;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     background-image: url(/src/assets/Images/CxwSholeSceU-axBntxUzw.jpeg);
@@ -781,7 +745,6 @@
   .inp-holder2{
     width: 19%;
     height: 50px;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: end;
@@ -789,7 +752,6 @@
   .inp-holder1{
     width: 70%;
     height: 50px;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -804,7 +766,6 @@
   .weekly-text{
     width: 32%;
     height: 25px;
-    /* border: 1px solid black; */
     border-radius: 20px;
     font-size: 14px;
     display: flex;
@@ -830,7 +791,6 @@
   .vid{
     width: 80%;
     height: 50px;
-    /* border: 1px solid black; */
     display: flex;
     font-size: 12px;
     align-items: center;
@@ -848,7 +808,6 @@
   .hero-title{
     width: 100%;
     height: 470px;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     gap: 9%;
@@ -924,8 +883,7 @@
     .advert{
       width: 100%;
       height: 280px;
-      /* border: 1px solid black; */
-      border-top: 1px solid black;
+      /* border-top: 1px solid black; */
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -933,7 +891,6 @@
     .inp-holder{
       width: 100%;
       height: 50px;
-      /* border: 1px solid black; */
       display: flex;
       align-items: center;
       justify-content: center;
@@ -942,7 +899,6 @@
     .inp-holder2{
       width: 20%;
       height: 50px;
-      /* border: 1px solid black; */
       display: flex;
       align-items: center;
       justify-content: end;
@@ -950,7 +906,6 @@
     .goods-section{
       width: 19%;
       height: 35px;
-      /* border: 1px solid black; */
       background-color: rgba(0, 0, 0, 0.128);
       display: flex;
       align-items: center;
@@ -964,7 +919,6 @@
     .goods-section-1a{
       width: 19%;
       height: 35px;
-      /* border: 1px solid black; */
       background-color: rgba(0, 0, 0, 0.128);
       display: flex;
       align-items: center;
@@ -978,7 +932,6 @@
     .goods-section2{
       width: 19%;
       height: 35px;
-      /* border: 1px solid black; */
       background-color: rgba(0, 0, 0, 0.128);
       display: flex;
       align-items: center;
@@ -1024,7 +977,6 @@
   .vid{
     width: 80%;
     height: 50px;
-    /* border: 1px solid black; */
     display: flex;
     font-size: 11px;
     align-items: center;
@@ -1041,7 +993,6 @@
   .weekly-text{
     width: 38%;
     height: 25px;
-    /* border: 1px solid black; */
     border-radius: 20px;
     font-size: 14px;
     display: flex;
@@ -1074,7 +1025,6 @@
   .goods-section{
     width: 22%;
     height: 35px;
-    /* border: 1px solid black; */
     background-color: rgba(0, 0, 0, 0.128);
     display: flex;
     align-items: center;
@@ -1088,7 +1038,6 @@
   .goods-section-1a{
     width: 22%;
     height: 35px;
-    /* border: 1px solid black; */
     background-color: rgba(0, 0, 0, 0.128);
     display: flex;
     align-items: center;
@@ -1153,7 +1102,6 @@
   .hero-section{
     width: 100%;
     height: 470px;
-    /* border: 2px solid black; */
     display: none;
     margin-top: 10px;
     display: flex;
@@ -1163,7 +1111,6 @@
   .inp-holder{
     width: 100%;
     height: 50px;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1172,8 +1119,7 @@
   .advert{
     width: 100%;
     height: 280px;
-    /* border: 1px solid black; */
-    border-top: 1px solid black;
+    /* border-top: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1278,7 +1224,6 @@
   .hero-section{
     width: 100%;
     height: 470px;
-    /* border: 2px solid black; */
     display: none;
     margin-top: 10px;
     display: flex;
@@ -1288,7 +1233,6 @@
   .inp-holder{
     width: 100%;
     height: 50px;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1297,8 +1241,7 @@
   .advert{
     width: 100%;
     height: 280px;
-    /* border: 1px solid black; */
-    border-top: 1px solid black;
+    /* border-top: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1370,7 +1313,6 @@
     .inp-holder{
       width: 100%;
       height: 50px;
-      /* border: 1px solid black; */
       display: flex;
       align-items: center;
       justify-content: center;
@@ -1383,7 +1325,6 @@
   .goods-section1{
     width: 49%;
     height: 35px;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1488,7 +1429,6 @@
   .weekly-text{
     width: 36%;
     height: 25px;
-    /* border: 1px solid black; */
     border-radius: 20px;
     font-size: 14px;
     display: flex;
@@ -1535,7 +1475,6 @@
   .weekly-text{
     width: 39%;
     height: 25px;
-    /* border: 1px solid black; */
     border-radius: 20px;
     font-size: 12px;
     display: flex;
@@ -1575,7 +1514,6 @@
   .goods-section{
     width: 24%;
     height: 35px;
-    /* border: 1px solid black; */
     background-color: rgba(0, 0, 0, 0.128);
     display: flex;
     align-items: center;
@@ -1589,7 +1527,6 @@
   .goods-section-1a{
     width: 24%;
     height: 35px;
-    /* border: 1px solid black; */
     background-color: rgba(0, 0, 0, 0.128);
     display: flex;
     align-items: center;
@@ -1612,13 +1549,10 @@
   }
   .rnfo{
     width: 180%;
-    /* margin-top: 20px; */
-    /* border: 1px solid black; */
   }
   .page-title{
     width: 190%;
     height: 85px;
-    /* border: 1px solid black; */
     font-size: 3px;
     display: flex;
     align-items: center;
@@ -1641,13 +1575,10 @@
   }
   .rnfo{
     width: 180%;
-    /* margin-top: 20px; */
-    /* border: 1px solid black; */
   }
   .page-title{
     width: 190%;
     height: 85px;
-    /* border: 1px solid black; */
     font-size: 3px;
     display: flex;
     align-items: center;
@@ -1673,7 +1604,6 @@
   .inp-holder1{
     width: 100%;
     height: 50px;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1686,7 +1616,6 @@
   .page-title{
     width: 190%;
     height: 85px;
-    /* border: 1px solid black; */
     font-size: 3px;
     display: flex;
     align-items: center;
@@ -1699,7 +1628,6 @@
   .vid{
     width: 80%;
     height: 50px;
-    /* border: 1px solid black; */
     display: flex;
     font-size: 10px;
     align-items: center;
@@ -1714,8 +1642,6 @@
   }
   .rnfo{
     width: 180%;
-    /* margin-top: 20px; */
-    /* border: 1px solid black; */
   }
   .advert{
     width: 100%;
@@ -1728,8 +1654,7 @@
   .remark{
     width: 100%;
     height: 620px;
-    /* border: 1px solid black; */
-    border-top: 1px solid black;
+    /* border-top: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1737,7 +1662,6 @@
   .advert-image3{
     width: 100%;
     height: 230px;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     background-image: url(/src/assets/Images/create-an-image-of-exhaust-fans-0s7YIkJQT5uLgogPRWQ9UA-lOFtHj1qTHKcCq26MfyPGA.jpeg);
@@ -1749,7 +1673,6 @@
   .advert-image1{
     width: 100%;
     height: 230px;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     background-image: url(/src/assets/Images/CxwSholeSceU-axBntxUzw.jpeg);
@@ -1761,7 +1684,6 @@
   .advert-image2{
     width: 100%;
     height: 230px;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     background-image: url(/src/assets/Images/create-an-image-of-pedestal-fan-3_dGco5LQE6qVSO8OC2PPg-nES843ypTIqxy369AJ-nIQ.jpeg);
@@ -1790,7 +1712,6 @@
   .weekly-text{
     width: 50%;
     height: 25px;
-    /* border: 1px solid black; */
     border-radius: 20px;
     font-size: 14px;
     display: flex;
@@ -1803,7 +1724,6 @@
   .vid{
     width: 80%;
     height: 50px;
-    /* border: 1px solid black; */
     display: flex;
     font-size: 10px;
     align-items: center;
@@ -1824,12 +1744,10 @@
   }
   .rnfo{
     width: 180%;
-    /* border: 1px solid black; */
   }
   .page-title{
     width: 190%;
     height: 85px;
-    /* border: 1px solid black; */
     font-size: 3px;
     display: flex;
     align-items: center;
@@ -1851,7 +1769,6 @@
   .weekly-text{
     width: 53%;
     height: 25px;
-    /* border: 1px solid black; */
     border-radius: 20px;
     font-size: 12px;
     display: flex;
@@ -1866,13 +1783,11 @@
   }
   .rnfo{
     width: 180%;
-    /* border: 1px solid black; */
     height: 50px;
   }
   .page-title{
     width: 190%;
     height: 85px;
-    /* border: 1px solid black; */
     font-size: 3px;
     display: flex;
     align-items: center;
@@ -1894,7 +1809,6 @@
   .goods-section{
     width: 22%;
     height: 35px;
-    /* border: 1px solid black; */
     background-color: rgba(0, 0, 0, 0.128);
     display: flex;
     align-items: center;
@@ -1908,7 +1822,6 @@
   .goods-section-1a{
     width: 22%;
     height: 35px;
-    /* border: 1px solid black; */
     background-color: rgba(0, 0, 0, 0.128);
     display: flex;
     align-items: center;
@@ -1933,13 +1846,11 @@
   }
   .rnfo{
     width: 180%;
-    /* border: 1px solid black; */
     height: 50px;
   }
   .page-title{
     width: 190%;
     height: 85px;
-    /* border: 1px solid black; */
     font-size: 3px;
     display: flex;
     align-items: center;
@@ -1971,7 +1882,6 @@
   .weekly-text{
     width: 59%;
     height: 25px;
-    /* border: 1px solid black; */
     border-radius: 20px;
     font-size: 12px;
     font-weight: bold;
@@ -1986,12 +1896,10 @@
   }
   .rnfo{
     width: 180%;
-    /* border: 1px solid black; */
   }
   .page-title{
     width: 190%;
     height: 85px;
-    /* border: 1px solid black; */
     font-size: 3px;
     display: flex;
     align-items: center;
@@ -2012,7 +1920,6 @@
   .weekly-text{
     width: 67%;
     height: 25px;
-    /* border: 1px solid black; */
     border-radius: 20px;
     font-size: 12px;
     font-weight: bold;
@@ -2027,12 +1934,10 @@
   }
   .rnfo{
     width: 180%;
-    /* border: 1px solid black; */
   }
   .page-title{
     width: 190%;
     height: 85px;
-    /* border: 1px solid black; */
     font-size: 3px;
     display: flex;
     align-items: center;
@@ -2053,7 +1958,6 @@
   .weekly-text{
     width: 76%;
     height: 25px;
-    /* border: 1px solid black; */
     border-radius: 20px;
     font-size: 12px;
     font-weight: bold;
@@ -2065,7 +1969,6 @@
   .goods-section-1a{
     width: 22%;
     height: 35px;
-    /* border: 1px solid black; */
     background-color: rgba(0, 0, 0, 0.128);
     display: flex;
     align-items: center;
@@ -2082,7 +1985,6 @@
   .goods-section{
     width: 30%;
     height: 35px;
-    /* border: 1px solid black; */
     background-color: rgba(0, 0, 0, 0.128);
     display: flex;
     align-items: center;
@@ -2106,7 +2008,6 @@
   .vid{
     width: 80%;
     height: 50px;
-    /* border: 1px solid black; */
     display: flex;
     font-size: 10px;
     align-items: center;
@@ -2114,12 +2015,10 @@
   }
   .rnfo{
     width: 180%;
-    /* border: 1px solid black; */
   }
   .page-title{
     width: 190%;
     height: 85px;
-    /* border: 1px solid black; */
     font-size: 3px;
     display: flex;
     align-items: center;
@@ -2139,7 +2038,6 @@
   .weekly-text{
     width: 89%;
     height: 25px;
-    /* border: 1px solid black; */
     border-radius: 20px;
     font-size: 12px;
     font-weight: bold;
@@ -2170,7 +2068,6 @@
   .page-title{
     width: 190%;
     height: 85px;
-    /* border: 1px solid black; */
     font-size: 3px;
     display: flex;
     align-items: center;
@@ -2186,12 +2083,10 @@
   }
   .rnfo{
     width: 180%;
-    /* border: 1px solid black; */
   }
   .vid{
     width: 80%;
-    height: 50px;
-    /* border: 1px solid black; */
+    height: 50px; 
     display: flex;
     font-size: 10px;
     align-items: center;

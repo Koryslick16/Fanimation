@@ -90,7 +90,6 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    /* border: solid green; */
 }
 
 @media screen and (max-width: 1000px) {
@@ -175,7 +174,7 @@
   .add-to-cart-button {
     width: 90%;
     padding: 10px;
-    background-color: #fff;
+    /* background-color: #fff; */
     color:#53284f;
     border: 2px solid #53284f;
     border-radius: 5px;
@@ -185,6 +184,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all ease-in-out 0.2s;
+  }
+
+  .add-to-cart-button:hover{
+     background-color: #53284f;
+     color: #fff;
   }
   
   .cart-icon {

@@ -1,15 +1,10 @@
-import React from 'react';
-import Navbar from '../../components/Navbar/Navbar';
+import React from 'react';ome
 import  './Home.css'
 import  { useState } from "react";
 import "../../components/Category/categories.css";
 import Data from "../../../public/data.json";
 import { NavLink } from "react-router-dom";
 import Modal from "../../components/Modal/Modal";
-
-
-
-
 
   
 
@@ -82,9 +77,10 @@ const Home = () => {
                    <div className="hero-vid">
                     <div className="weekly">
                     <div className="weekly-text"><p>weekly Discount</p></div><br/>
-                        <div className="page-title"><h1 className='one'>Premium Product Online Shop</h1></div><br/>
+                        <div className="page-title"><h1 className='one'>A Collection with a Fan For Every Space</h1></div><br/>
                         <div className="rnfo"><p className="idi"> Featuring the new Antique Graphite finish with new Light Oak finish blade</p></div><br/>
-
+                        <div className="rnfo"><p className="idi">  Get an additional 10% off on your first purchase with us.</p></div><br/>
+                       
                    <NavLink to="/products"> <button className="btn-17">
                     <span className="text-container">
                         <span className="text">Learn More</span>
@@ -101,7 +97,7 @@ const Home = () => {
 
 
         <div className="vid"><h1 className='our'>Our Top Categories</h1></div>
-        <div className="inp-holder">
+        {/* <div className="inp-holder">
             <div className="inp-holder1">
             <div className="goods-section"><h3>
             <select
@@ -178,8 +174,8 @@ const Home = () => {
                     <path fillRule="evenodd" d="M0 10.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1H3V1.5a.5.5 0 0 0-1 0V10H.5a.5.5 0 0 0-.5.5M2.5 12a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 1 0v-2a.5.5 0 0 0-.5-.5m3-6.5A.5.5 0 0 0 6 6h1.5v8.5a.5.5 0 0 0 1 0V6H10a.5.5 0 0 0 0-1H6a.5.5 0 0 0-.5.5M8 1a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 1 0v-2A.5.5 0 0 0 8 1m3 9.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1H14V1.5a.5.5 0 0 0-1 0V10h-1.5a.5.5 0 0 0-.5.5m2.5 1.5a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 1 0v-2a.5.5 0 0 0-.5-.5"/>
                     </svg>
                 </h3></div>
-            </div>
-        </div>
+            </div> */}
+        {/* </div> */}
 
             <div className="remark">
                 <div className="advert">

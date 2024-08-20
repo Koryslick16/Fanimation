@@ -91,32 +91,6 @@ const FAQ = () => {
         </div>
       </div>
 
-      {/* Installation Questions Section */}
-      <div className="faqGeneral">
-        <div className="faqGeneral1">
-          <h2 className='questiontxt'>fanSync WiFi</h2>
-          <div className="accordion">
-            {faqData.installation.map((faq, index) => (
-              <div className="accordion-item" key={index}>
-                <input type="checkbox" id={`accordionInstallation${index + 1}`} className="accordion-checkbox" />
-                <label
-                  htmlFor={`accordionInstallation${index + 1}`}
-                  className="accordion-header"
-                  onClick={() => toggleAccordion(`installation${index + 1}`)}
-                >
-                  {faq.question}
-                  <span className="accordion-icon">{open[`installation${index + 1}`] ? '−' : '+'}</span>
-                </label>
-                {open[`installation${index + 1}`] && (
-                  <div className="accordion-content">
-                    {faq.answer}
-                  </div>
-                )}
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
 
       <div className="contactinfo">
         <div className="contactinfo-header">
@@ -318,17 +292,6 @@ const FAQ = () => {
           </p>
         </div>
       </div>
-      <div className='catalog'>
-        <div className="fanimation-catalog1">
-          Fanimation Catalog
-        </div>
-        <div className="fanimation-catalog2">
-          Fanimation's focus is producing creative and functional fans that provide ultimate personal comfort using the latest technology for energy efficency and seamless control.
-        </div>
-        <div className="fanimation-catalog3">
-          <div className='download'>Download 2024 Catalog</div>
-        </div>
-      </div>
     </div>
   );
 };
@@ -475,61 +438,7 @@ const faqData = {
           </div>
         ),
       },
-    // Add more technical questions here...
-  ],
-  installation: [
-    {
-      question: "What are the network requirements for Sync WiFi Control?",
-      answer: (
-        <p>
-          Fanimation fanSync Wifi controls must pair to a <br />
-          2.4GHz WiFi network. Most smart home devices like smart bulbs. <br />
-          Video door bells, etc.use 2.4GHz, This is because the signal distance is much stronger than 5G. Once <br />
-          paired, you can control your ceiling fan on any WiFi network or via your cellular signal on your smart phone. <br />
-          for most users, pairing will be quick and simple but, depending on the type of wireless router you have, <br />
-          you may need a little more information to get started, for more information, please refer to our <br />
-          <big>WIRELESS ROUTING GUIDE</big>
-        </p>
-      ),
-    },
-    {
-      question: "What is the range between the router and the ceiling fan?",
-      answer: (
-        <p>
-          Depending on the strength of you WiFi signal and type of WiFi service, fanSync WiFi controls have a range
-          of up to 100 feet based on the Version 
-          of your fanSync Wifi control.
-        </p>
-      ),
-    },
-    {
-      question: "How do I link my fanSync WiFi control with Amazon Echo, Google Home and IFTTT?",
-      answer: (
-        <p>
-          Please refer to our <b>fanSync FAQS and Troubleshooting Tips </b> on page 5.
-        </p>
-      ),
-    },
-    {
-        question: "How many ceiling fans can be on the fanSync WiFi app?",
-        answer: (
-          <p>
-            There is no limiit to the number of ceiling fans that can be visible in the fanSync WiFi app.
-            For additional information, please refer to our <b>fanSync FAQS and Troubleshooting Tips</b> on page 5.
-          </p>
-        ),
-      },
-
-      {
-        question: "My fan isn't connecting or functioning properly using the fanSync app or with my Smart Home device, What can i do?",
-        answer: (
-          <p>
-            Please refer to out <b>fanSync FAQs and Troubleshooting Tips</b> on page 5 for Quick troubleshooting steps and additional information.
-          </p>
-        ),
-      },
-    // Add more installation questions here...
-  ],
+  ]
 };
 
 export default FAQ;
