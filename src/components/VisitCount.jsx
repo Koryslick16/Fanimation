@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import "./Visitor.css"
 import { BsFillPersonFill } from "react-icons/bs";
 
 const VisitCount = () => {

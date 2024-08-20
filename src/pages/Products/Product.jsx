@@ -19,7 +19,7 @@ const Product = () => {
     setSelectedProduct(product);
     setOpenModal(true);
   };
-
+  
   const filteredType = ["All Types", ...new Set(Data.map((item) => item.type))];
   const filteredColor = ["All Colors", ...new Set(Data.map((item) => item.color))];
   const filteredBrand = ["All Brands", ...new Set(Data.map((item) => item.brand))];
@@ -32,8 +32,6 @@ const Product = () => {
     "$600 - $900",
     "$900+"
   ];
-  
-
   const filteredProducts = Data.filter((product) => {
     const matchesType = 
       selectedType === "All" || product.type === selectedType;
