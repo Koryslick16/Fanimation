@@ -172,11 +172,6 @@
     outline: none;
   }
 
-  @media screen and (max-width: 1034px) {
-    .Deals{
-      /* border: 1px solid black; */
-    }
-  }
   
   @media screen and (max-width: 822px) {
     .promo{
