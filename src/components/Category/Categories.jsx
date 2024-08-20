@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./categories.css";
-import { Link, NavLink } from "react-router-dom";
-import Data from "../../../public/data.json";
+import { NavLink } from "react-router-dom";
 
 const Categories = () => {
 

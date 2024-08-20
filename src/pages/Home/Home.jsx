@@ -6,10 +6,6 @@ import Data from "../../../public/data.json";
 import { NavLink } from "react-router-dom";
 import Modal from "../../components/Modal/Modal";
 
-
-
-
-
   
 
 const Home = () => {

@@ -5,11 +5,6 @@ import { IoCloseSharp } from "react-icons/io5";
 
 const Modal = (props) => {
 
-    const [openModal, setOpenModal] = useState(true)
-
-    const handleModalDisplay = () => {
-        setOpenModal(false);
-      };
 
   return (
     <>

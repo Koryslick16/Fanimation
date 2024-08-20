@@ -6,7 +6,6 @@ import BackgroundGallery from "../../assets/image/ceiling2.jpeg";
 import Heroproduct from "../../components/ProductHero/Heroproduct";
 import { NavLink } from "react-router-dom";
 import Modal from "../../components/Modal/Modal";
-import Categories from "../../components/Category/Categories";
 
 const Product = () => {
   const [openModal, setOpenModal] = useState(false);

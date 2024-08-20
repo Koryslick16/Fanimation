@@ -1,4 +1,3 @@
-
 import "./contact.css"
 import BackgroundGallery from "../../assets/image/Ceiling3.jpeg"
 
