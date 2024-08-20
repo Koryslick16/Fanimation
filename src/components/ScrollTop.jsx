@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./ScrollTop.css";
+import "./scroll.css";
 import { IoIosArrowUp } from "react-icons/io";
 
 

@@ -38,7 +38,7 @@ const Navbar = () => {
             <div className="Deals">
 
                 <div className="links">
-                   <Link to="/Home" className='home'>Home</Link>
+                   <Link to="/" className='home'>Home</Link>
                     <Link to="/products" className='product'>Products</Link>
                     <Link to="/gallery" className='explore'>Explore</Link>
                     <Link to="/faq" className='faq' >FAQs</Link>
@@ -46,7 +46,6 @@ const Navbar = () => {
                     <Link to="/aboutUs" className='about' >About Us</Link>
                     <Link to="/contactUs" className='contact' >Contact Us</Link>
                 </div>
-                {/* Ceiling fans, Pedestal fans, Wall fans, Exhaust fans, Accessories  */}
 
                     <div className="hamburger-menu">
                         <button className={`hamburger-button ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
@@ -57,7 +56,7 @@ const Navbar = () => {
                         <div className={`menu-overlay ${isOpen ? 'open' : ''}`} onClick={toggleMenu}></div>
                         <nav className={`menu ${isOpen ? 'open' : ''}`}>
                             <ul>
-                                <li><Link to="/Home" className='home'>Home</Link></li>
+                                <li><Link to="/" className='home'>Home</Link></li>
                                 <li><Link to="/products" className='product'>Products</Link></li>
                                 <li><Link to="/gallery" className='explore'>Explore</Link></li>
                                 <li><Link to="/faq" className='faq' >FAQs</Link></li>

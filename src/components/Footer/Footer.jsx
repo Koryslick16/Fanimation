@@ -37,7 +37,7 @@ const Footer = () => {
            
         </div>
         <div className="aLinks">
-        <Link to="/Home">Home</Link>
+        <Link to="/">Home</Link>
         <Link to="/gallery">Gallery</Link>
         <Link to="/choose">Choosing a Fan</Link>
         <Link to="/gallery">Blog</Link>

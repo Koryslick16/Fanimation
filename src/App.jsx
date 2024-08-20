@@ -14,6 +14,7 @@ import Pedestal from './pages/FanCategory/Pedestal'
 import WallFan from './pages/FanCategory/WallFan'
 import Exhaust from './pages/FanCategory/Exhaust'
 import Accessories from './pages/FanCategory/Accessories'
+import "./App.css"
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
         <Navbar/>
         <ScrollTop/>
         <Routes>
-        <Route path='/Home' index element={<Home/>}/> 
+        <Route path='/' index element={<Home/>}/> 
         <Route path='/faq' index element={<FAQs/>}/>  
         <Route path='/helpcenter' element={<Help/>}/>
         <Route path='/gallery' element={<Gallery/>}/>
